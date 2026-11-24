@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mcl",
+    "name": "McLaren",
+    "color": "#FF8000",
+    "pu": "Mercedes",
+    "car": "MCL40",
+    "base": "Woking, Reino Unido"
+  },
+  {
+    "id": "mer",
+    "name": "Mercedes",
+    "color": "#00CFB4",
+    "pu": "Mercedes",
+    "car": "W17",
+    "base": "Brackley, Reino Unido"
+  },
+  {
+    "id": "rbr",
+    "name": "Red Bull Racing",
+    "color": "#2F5FC4",
+    "pu": "Red Bull Ford",
+    "car": "RB22",
+    "base": "Milton Keynes, Reino Unido"
+  },
+  {
+    "id": "fer",
+    "name": "Ferrari",
+    "color": "#C8001E",
+    "pu": "Ferrari",
+    "car": "SF-26",
+    "base": "Maranello, Itália"
+  },
+  {
+    "id": "wil",
+    "name": "Williams",
+    "color": "#1868DB",
+    "pu": "Mercedes",
+    "car": "FW48",
+    "base": "Grove, Reino Unido"
+  },
+  {
+    "id": "rb",
+    "name": "Racing Bulls",
+    "color": "#7FA4FF",
+    "pu": "Red Bull Ford",
+    "car": "VCARB 03",
+    "base": "Faenza, Itália"
+  },
+  {
+    "id": "ast",
+    "name": "Aston Martin",
+    "color": "#1F8F6B",
+    "pu": "Honda",
+    "car": "AMR26",
+    "base": "Silverstone, Reino Unido"
+  },
+  {
+    "id": "haa",
+    "name": "Haas",
+    "color": "#9C9FA2",
+    "pu": "Ferrari",
+    "car": "VF-26",
+    "base": "Kannapolis, EUA"
+  },
+  {
+    "id": "aud",
+    "name": "Audi",
+    "color": "#F50537",
+    "pu": "Audi",
+    "car": "R26",
+    "base": "Hinwil, Suíça",
+    "note": "Antiga Sauber"
+  },
+  {
+    "id": "alp",
+    "name": "Alpine",
+    "color": "#00A1E8",
+    "pu": "Mercedes",
+    "car": "A526",
+    "base": "Enstone, Reino Unido"
+  },
+  {
+    "id": "cad",
+    "name": "Cadillac",
+    "color": "#A8935A",
+    "pu": "Ferrari",
+    "car": "MAC-26",
+    "base": "Fishers, EUA",
+    "note": "Equipa nova"
+  }
+]

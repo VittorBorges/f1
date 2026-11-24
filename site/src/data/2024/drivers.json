@@ -1,0 +1,22 @@
+[
+  { "team": "red", "num": 1, "code": "VER", "first": "Max", "last": "Verstappen", "country": "Países Baixos", "born": 1997, "debut": 2015, "titles": 3 },
+  { "team": "red", "num": 11, "code": "PER", "first": "Sergio", "last": "Pérez", "country": "México", "born": 1990, "debut": 2011, "titles": 0 },
+  { "team": "mer", "num": 44, "code": "HAM", "first": "Lewis", "last": "Hamilton", "country": "Reino Unido", "born": 1985, "debut": 2007, "titles": 7 },
+  { "team": "mer", "num": 63, "code": "RUS", "first": "George", "last": "Russell", "country": "Reino Unido", "born": 1998, "debut": 2019, "titles": 0 },
+  { "team": "fer", "num": 16, "code": "LEC", "first": "Charles", "last": "Leclerc", "country": "Mónaco", "born": 1997, "debut": 2018, "titles": 0 },
+  { "team": "fer", "num": 55, "code": "SAI", "first": "Carlos", "last": "Sainz", "country": "Espanha", "born": 1994, "debut": 2015, "titles": 0 },
+  { "team": "mcl", "num": 4, "code": "NOR", "first": "Lando", "last": "Norris", "country": "Reino Unido", "born": 1999, "debut": 2019, "titles": 0 },
+  { "team": "mcl", "num": 81, "code": "PIA", "first": "Oscar", "last": "Piastri", "country": "Austrália", "born": 2001, "debut": 2023, "titles": 0 },
+  { "team": "ast", "num": 14, "code": "ALO", "first": "Fernando", "last": "Alonso", "country": "Espanha", "born": 1981, "debut": 2001, "titles": 2 },
+  { "team": "ast", "num": 18, "code": "STR", "first": "Lance", "last": "Stroll", "country": "Canadá", "born": 1998, "debut": 2017, "titles": 0 },
+  { "team": "alp", "num": 10, "code": "GAS", "first": "Pierre", "last": "Gasly", "country": "França", "born": 1996, "debut": 2017, "titles": 0 },
+  { "team": "alp", "num": 31, "code": "OCO", "first": "Esteban", "last": "Ocon", "country": "França", "born": 1996, "debut": 2016, "titles": 0 },
+  { "team": "wil", "num": 23, "code": "ALB", "first": "Alexander", "last": "Albon", "country": "Tailândia", "born": 1996, "debut": 2019, "titles": 0 },
+  { "team": "wil", "num": 2, "code": "SAR", "first": "Logan", "last": "Sargeant", "country": "Estados Unidos", "born": 2000, "debut": 2023, "titles": 0 },
+  { "team": "rb", "num": 3, "code": "RIC", "first": "Daniel", "last": "Ricciardo", "country": "Austrália", "born": 1989, "debut": 2011, "titles": 0 },
+  { "team": "rb", "num": 22, "code": "TSU", "first": "Yuki", "last": "Tsunoda", "country": "Japão", "born": 2000, "debut": 2021, "titles": 0 },
+  { "team": "sau", "num": 77, "code": "BOT", "first": "Valtteri", "last": "Bottas", "country": "Finlândia", "born": 1989, "debut": 2013, "titles": 0 },
+  { "team": "sau", "num": 24, "code": "ZHO", "first": "Guanyu", "last": "Zhou", "country": "China", "born": 1999, "debut": 2022, "titles": 0 },
+  { "team": "haa", "num": 20, "code": "MAG", "first": "Kevin", "last": "Magnussen", "country": "Dinamarca", "born": 1992, "debut": 2014, "titles": 0 },
+  { "team": "haa", "num": 27, "code": "HUL", "first": "Nico", "last": "Hülkenberg", "country": "Alemanha", "born": 1987, "debut": 2010, "titles": 0 }
+]

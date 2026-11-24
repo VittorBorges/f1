@@ -1,0 +1,12 @@
+[
+  { "id": "red", "name": "Red Bull Racing", "color": "#3671C6", "pu": "Honda RBPT", "car": "RB20", "base": "Milton Keynes, Reino Unido" },
+  { "id": "mer", "name": "Mercedes", "color": "#27F4D2", "pu": "Mercedes", "car": "W15", "base": "Brackley, Reino Unido" },
+  { "id": "fer", "name": "Ferrari", "color": "#E8002D", "pu": "Ferrari", "car": "SF-24", "base": "Maranello, Itália" },
+  { "id": "mcl", "name": "McLaren", "color": "#FF8000", "pu": "Mercedes", "car": "MCL38", "base": "Woking, Reino Unido" },
+  { "id": "ast", "name": "Aston Martin", "color": "#229971", "pu": "Mercedes", "car": "AMR24", "base": "Silverstone, Reino Unido" },
+  { "id": "alp", "name": "Alpine", "color": "#FF87BC", "pu": "Renault", "car": "A524", "base": "Enstone, Reino Unido" },
+  { "id": "wil", "name": "Williams", "color": "#64C4FF", "pu": "Mercedes", "car": "FW46", "base": "Grove, Reino Unido" },
+  { "id": "rb", "name": "RB", "color": "#6692FF", "pu": "Honda RBPT", "car": "VCARB 01", "base": "Faenza, Itália", "note": "Antiga AlphaTauri" },
+  { "id": "sau", "name": "Kick Sauber", "color": "#52E252", "pu": "Ferrari", "car": "C44", "base": "Hinwil, Suíça", "note": "Antiga Alfa Romeo" },
+  { "id": "haa", "name": "Haas", "color": "#B6BABD", "pu": "Ferrari", "car": "VF-24", "base": "Kannapolis, Estados Unidos" }
+]
