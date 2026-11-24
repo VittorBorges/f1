@@ -386,13 +386,13 @@ export default function App() {
     const nq = norm(q.trim());
     return DRIVERS.filter((d) => {
       const t = teamById[d.team];
-      if (pu && t.pu !== pu) return false;
+      if (pu && PUS.includes(pu) && t.pu !== pu) return false;
       if (flag === "champ" && !d.titles) return false;
       if (flag === "rookie" && d.debut !== SEASON) return false;
       if (flag === "new" && !t.note) return false;
       return !nq || norm([d.first, d.last, d.code, d.num, d.country, t.name, t.pu, t.car].join(" ")).includes(nq);
     });
-  }, [q, pu, flag, DRIVERS, SEASON, teamById]);
+  }, [q, pu, flag, DRIVERS, SEASON, teamById, PUS]);
 
   // Guarda o scroll da grelha ao abrir um piloto, para voltar ao mesmo sítio.
   const gridY = useRef(0);
@@ -409,20 +409,24 @@ export default function App() {
 
   return (
     <MotionConfig reducedMotion="user">
-      <Season.Provider value={season}>
       <AnimatePresence mode="wait">
       {detail ? (
         <motion.div key={`${SEASON}-${detail.code}`} className="wrap" {...pageFade}>
+        <Season.Provider value={season}>
           <ScrollTo />
           <DriverPage d={detail} />
+        </Season.Provider>
         </motion.div>
       ) : proto ? (
         <motion.div key={proto} className="wrap" {...pageFade}>
+        <Season.Provider value={season}>
           <ScrollTo />
           <Prototype id={proto} season={season} />
+        </Season.Provider>
         </motion.div>
       ) : (
       <motion.div key={`grid-${SEASON}`} className="wrap" {...pageFade}>
+        <Season.Provider value={season}>
         <ScrollTo yRef={gridY} />
         <ProtoNav current="" season={SEASON} />
         <header>
@@ -517,10 +521,10 @@ export default function App() {
           {season.season?.footer} As cores são aproximações das decorações e as ilustrações são genéricas: a
           página não usa fotografias nem logótipos oficiais. A barra em cada piloto mostra as épocas desde a estreia na F1.
         </footer>
+      </Season.Provider>
       </motion.div>
       )}
       </AnimatePresence>
-      </Season.Provider>
     </MotionConfig>
   );
 }
